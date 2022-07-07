@@ -1,0 +1,1 @@
+This is the hello world c project to practicing the fundamentals of c progamming language like understanding what is a preprocessor the c compiling process and all the different steps of compiling of the c compiler.
