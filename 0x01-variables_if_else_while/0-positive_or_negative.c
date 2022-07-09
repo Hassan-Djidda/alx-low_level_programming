@@ -1,7 +1,6 @@
 #include<stdlib.h>
 #include<time.h>
 #include<stdio.h>
-
 /**
  * main -assigns random to int n everytime 
  * it excutes , amd prints it
