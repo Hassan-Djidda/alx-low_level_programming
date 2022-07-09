@@ -10,7 +10,7 @@ int main(void)
 	int n;
 
 	for (n = 18; n < 28; n++)
-		putchar("%d", n);
+		putchar(n);
 	putchar(n);
 	return (0);
 }
