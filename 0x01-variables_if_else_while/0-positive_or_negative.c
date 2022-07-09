@@ -2,7 +2,6 @@
 #include<time.h>
 #include<stdio.h>
 
-
 /**
  * main -assigns random to int n everytime 
  * it excutes , amd prints it
@@ -22,5 +21,3 @@ int main(void)
 		printf("%d is negative\n", n);
 	return (0);
 }
-
-
