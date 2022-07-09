@@ -1,5 +1,4 @@
-#include<stdio.h>
-
+#include <stdio.h>
 
 /**
  * main - prints the size of various types on the computer
@@ -16,6 +15,6 @@ int main(void)
 	printf("Size of an int: %lu byte(s)\n", sizeof(a));
 	printf("Size of a long int: %lu byte(s)\n", sizeof(b));
 	printf("Size of a long long int: %lu byte(s)\n", sizeof(c));
-	printf("Size of float: %lu byte(s)\n", sizeof(int));
+	printf("Size of float: %lu byte(s)\n", sizeof(f));
 	return (0);
 }
