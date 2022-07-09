@@ -6,13 +6,13 @@
  * main -assigns random to int n everytime 
  * it excutes , amd prints it
  * Return: Always 0 (Sucess)
- **/
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n = rand() - (RAND_MAX / 2);
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		printf("%d is positive\n", n);
 	else if (0 == n)
