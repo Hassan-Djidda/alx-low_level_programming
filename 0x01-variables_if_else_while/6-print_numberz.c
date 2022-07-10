@@ -11,6 +11,7 @@ int main(void)
 
 	for (n = 18; n < 28; n++)
 		putchar(n);
+	
 	putchar("\n");
 	return (0);
 }
