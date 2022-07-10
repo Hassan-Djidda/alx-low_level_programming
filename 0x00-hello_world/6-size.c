@@ -4,18 +4,21 @@
  * main - prints the size of various types on the computer
  * Return: returns the value 0 if exit properly, non-zero otherwise
  **/
+
 int main(void)
 {
-	int a;
-	long long int c;
-	char d;
-	float f;
-	long int b;
+	int integer;
+	char character;
+	long along;
+	long long alonglong;
+	float afloat;
 
-	printf("Size of a char: %lu byte(s)\n", sizeof(d));
-	printf("Size of an int: %lu byte(s)\n", sizeof(a));
-	printf("Size of a long int: %lu byte(s)\n", sizeof(b));
-	printf("Size of a long long int: %lu byte(s)\n", sizeof(c));
-	printf("Size of float: %lu byte(s)\n", sizeof(int));
+	printf("Size of a char: %lu byte(s)\n", sizeof(character));
+	printf("Size of an int: %lu byte(s)\n", sizeof(integer));
+	printf("size of a long: %lu byte(s)\n", sizeof(along));
+	printf("Size of a long long: %lu byte(s)\n", sizeof(alonglong));
+	printf("Size of a float: %lu byte(s)\n", sizeof(afloat));
+
 	return (0);
+
 }
