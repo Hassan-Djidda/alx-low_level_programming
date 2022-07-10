@@ -9,7 +9,7 @@ int main(void)
 {
 	int chr;
 
-	for (chr = 0; chr <= 9; chr++)
+	for (chr = 0; chr < 10; chr++)
 	{
 		putchar(48 + chr);
 		if (chr != 9)
@@ -18,5 +18,5 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	return 0;
+	return (0);
 }
