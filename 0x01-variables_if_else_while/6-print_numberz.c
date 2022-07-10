@@ -7,10 +7,13 @@
  */
 int main(void)
 {
-	int n;
+	int n = 0;
 
-	for (n = 18; n < 28; n++)
-		putchar(n);
+	while (n < 10)
+	{
+		putchar(48 + n);
+		c++;
+	}
 	
 	putchar('\n');
 	return (0);
