@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 /**
  *main - main block to be excuted
  *Description: print all possible combination of two digit
