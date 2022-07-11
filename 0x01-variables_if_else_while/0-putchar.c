@@ -1,4 +1,6 @@
 #include "main.h"
+
+
 /**
  * main - main block tobe executed
  * Description: prints _putchar followed on new line
