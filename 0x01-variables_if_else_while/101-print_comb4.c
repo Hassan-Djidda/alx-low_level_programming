@@ -33,11 +33,11 @@ int main(void)
 						putchar(' ');
 					}
 				}
-				firsVar++;
+				firstVar++;
 			}
 			secondVar++;
 		}
-		third++;
+		thirdVar++;
 	}
 	putchar('\n');
 
