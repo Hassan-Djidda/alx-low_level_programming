@@ -3,7 +3,7 @@
 /**
  * _strlen - finds the length of of the string
  * @s: pointer for the the string to be checked
- * Returb: void
+ * Return: void
  */
 int _strlen(char *s)
 {
@@ -11,6 +11,6 @@ int _strlen(char *s)
 
 	while (s[i])
 		i++;
-	
+
 	return (i);
 }
