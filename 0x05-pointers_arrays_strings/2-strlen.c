@@ -5,11 +5,12 @@
  * @s: pointer for the the string to be checked
  * Returb: void
  */
-void _strlen(char *s)
+int _strlen(char *s)
 {
 	int i = 0;
 
 	while (s[i])
 		i++;
+	
 	return (i);
 }
