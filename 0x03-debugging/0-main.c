@@ -2,8 +2,9 @@
 
 /**
  * main - prints true if integer positive or not
- * Return:Always 0 succes
+ * Return: Always 0 succes
  */
+
 int main(void)
 {
 	int a;
