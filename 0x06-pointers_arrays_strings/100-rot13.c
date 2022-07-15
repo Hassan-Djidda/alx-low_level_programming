@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * rot13 = encodes a string using rot13
+ * rot13 - encodes a string using rot13
  * @s: the sring
  * Return: the string
  */
@@ -19,7 +19,7 @@ char *rot13(char *s)
 		{
 			if (s[i] == alpha[j])
 			{
-				s[i] = r[i];
+				s[i] = r[j];
 				boolean = 1;
 			}
 		}
