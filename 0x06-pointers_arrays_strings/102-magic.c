@@ -12,9 +12,8 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-
 	/**
-	 * write your line of cde her..
+	 * write your line of cde her...
 	 * Remember:
 	 */
 	p[5] = 98;
