@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * *capstring - capitalize words
+ * *cap_string - capitalize words
  * @str: pointer
  * Return: capitalized word
  */
