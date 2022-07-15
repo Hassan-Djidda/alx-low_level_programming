@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * let - transform to leet
+ * leet - transform to leet
  * @s: char array string type
- * REturn: s tranformed
+ * Return: s tranformed
  */
 char *leet(char *s)
 {
@@ -24,6 +24,6 @@ char *leet(char *s)
 		}
 	}
 
-	return(s);
+	return (s);
 }
 
