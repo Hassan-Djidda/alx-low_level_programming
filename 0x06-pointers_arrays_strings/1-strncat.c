@@ -20,5 +20,5 @@ char *_strncat(char *dest, char *src, int n)
 	/*should end with end of string char */
 	dest[dest_leng + i] = '\0';
 
-	return (dest)
+	return (dest);
 }
