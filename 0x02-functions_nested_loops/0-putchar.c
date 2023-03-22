@@ -1,9 +1,10 @@
-#include <stdio.h> 
+#include<stdio.h> 
 
 /**
  * main - main block
  * Return: always 0
  */
+
 int main(void)
 {
 	putchar('_');
@@ -15,5 +16,6 @@ int main(void)
 	putchar('a');
 	putchar('r');
 	putchar('\n');
+	
 	return (0);
 }
