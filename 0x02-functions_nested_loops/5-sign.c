@@ -7,22 +7,19 @@
  */
 int print_sign(int n)
 {
-	int numz;
-
 	if (n > 0)
 	{
-		numz = 1;
-		putchar('+');
+		putchar(0 + 43);
+		return (1);
 	}
 	else if (n == 0)
 	{
-		numz = 0;
-		putchar('0');
+		putchar(0 + 48);
+		return (0);
 	}
 	else
 	{
-		numz = -1;
-		putchar('-');
+		putchar(0 + 45);
+		return (-1);
 	}
-	return (numz);
 }
