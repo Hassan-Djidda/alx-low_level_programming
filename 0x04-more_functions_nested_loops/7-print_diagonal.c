@@ -3,6 +3,8 @@
 /**
  * print_diagonal - Draws a diagonal line in the terminal
  *
+ * @n: the number of times the \ to be print
+ *
  * Return: void
  */
 void  print_diagonal(int n)
@@ -20,5 +22,6 @@ void  print_diagonal(int n)
 			_putchar(92);
 			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
