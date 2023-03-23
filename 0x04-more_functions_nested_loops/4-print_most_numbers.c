@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * print_most_numbers - Prints numbers from 0 to 0 except 2, 4.
  * 
@@ -13,8 +13,8 @@ void print_most_numbers(void)
 	while (num <= '9')
 	{
 		if (!(num == '2' || num == '4'))
-			putchar(num);
+			_putchar(num);
 			++num;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
