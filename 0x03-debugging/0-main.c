@@ -1,15 +1,17 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * main - prints true if integer positive or not
- * Return: Always 0 succes
- */
+ * main - Function that prints if integer is positive or nagative.
+ *
+ * Return: Always 0 (successful)
+*/
+
 int main(void)
 {
-	int a;
-	
-	a = 0;
-	positive_or_negative(a);
-	
+	int i;
+
+	i = 0;
+	positive_or_nagative(i);
+
 	return (0);
 }
