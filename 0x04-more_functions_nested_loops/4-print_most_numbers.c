@@ -3,8 +3,6 @@
 /**
  * print_most_numbers - Prints numbers from 0 to 0 except 2, 4.
  * 
- * Description: prints number
- *
  * Return: void
  */
 
@@ -14,10 +12,9 @@ void print_most_numbers(void)
 
 	while (ch <= '9')
 	{
-		if (ch == '2' || ch == '4')
-			continue;
-		else
+		if (ch != '2' || ch != '4')
 			_putchar(ch);
+		ch++;
 	}
 	_putchar('\n');
 }
