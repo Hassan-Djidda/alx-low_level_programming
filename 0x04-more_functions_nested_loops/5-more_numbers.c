@@ -5,7 +5,7 @@
  * 		followed by a new line
  * Retrun: void
  */
-void more_numbers(void)
+void print_most_numbers(void)
 {
 	char ch = '0';
 	int i;
@@ -19,5 +19,7 @@ void more_numbers(void)
 			ch++;
 		}
 		i++;
+		_putchar('\n');
 	}
+	_putchar('\n');
 }
