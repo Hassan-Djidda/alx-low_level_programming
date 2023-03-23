@@ -5,20 +5,20 @@
  *
  * Return: void
  */
-void print_diagonal(int size)
+void  print_diagonal(int n)
 {
 	int position, space;
-
+	
 	if (n <= 0)
-		_putchar('\n');
+		putchar('\n');
 	else
 	{
-		for (potision = 1; position <= n; ++position)
+		for (position = 1; position <= n; ++position)
 		{
 			for (space = 1; space <= position; ++space)
-				_putchar(' ');
-			_putchar(92);
-			_putchar('\n');
+				putchar(' ');
+			putchar(92);
+			putchar('\n');
 		}
 	}
 }
