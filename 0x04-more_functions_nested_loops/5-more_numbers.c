@@ -10,7 +10,7 @@ void more_numbers(void)
 	char ch = '0';
 	int i;
 
-	i = 0;
+	i = 1;
 	while (i < =10)
 	{
 		while (ch <= '14')
