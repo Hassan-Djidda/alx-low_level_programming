@@ -2,6 +2,8 @@
 
 /**
  * print_most_numbers - Prints numbers from 0 to 0 except 2, 4.
+ * 
+ * Description: prints number
  *
  * Return: void
  */
