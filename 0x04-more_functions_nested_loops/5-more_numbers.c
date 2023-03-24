@@ -5,21 +5,22 @@
  * 		followed by a new line
  * Retrun: void
  */
-void more_numbers(void)
+void main(void)
 {
-	char ch = '0';
-	int i;
+	int num, times, count;
 
-	i = 1;
-	while (i < =10)
+	for (times = 1; times <= 10; ++times)
 	{
-		while (ch <= '14')
+		for (count = 0; count <= 14; ++count)
 		{
-			_putchar(ch);
-			ch++;
+			num = count;
+			if (count > 9)
+			{
+				putchar(1 + 48);
+				num = count % 10;
+			}
+			putchar(num + 48);
 		}
-		i++;
-		_putchar('\n');
+		putchar('\n');
 	}
-	_putchar('\n');
 }
