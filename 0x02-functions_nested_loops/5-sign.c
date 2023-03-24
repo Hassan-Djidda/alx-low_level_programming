@@ -1,27 +1,30 @@
-#include <stdio.h>
+#include"main.h"
 
 /**
- * print_sign - entry point
- * @n : number to check
- * Return:0 or 1
- */
+ * print_sign - print + if n is greater than zero,
+ *             0 if n is zero and - if n is less
+ *             than zero.
+ *
+ * @n: takes integer type input for function.
+ *
+ * Return: 1 if +, 0 if 0 and -1 if -
+*/
+
 int print_sign(int n)
 {
-	char ch = '0';
-	
 	if (n > 0)
 	{
-		putchar(ch - 5);
+		_putchar(43 + 0);
 		return (1);
 	}
 	else if (n == 0)
 	{
-		putchar(ch);
+		_putchar(0 + 48);
 		return (0);
 	}
 	else
 	{
-		putchar(ch - 3);
+		_putchar(45 + 0);
 		return (-1);
 	}
 }
