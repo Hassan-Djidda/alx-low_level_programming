@@ -1,26 +1,23 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * more_numbers - Prints 10 times the number, from 1 to 14
- * 		followed by a new line
- * Retrun: void
+ * more_numbers - nmbr fct
+ * Bwave ICT file
+ * Return: no return
  */
-void main(void)
-{
-	int num, times, count;
 
-	for (times = 1; times <= 10; ++times)
+void more_numbers(void)
+{
+
+int i, j;
+	for (i = 1; i <= 10; i++)
 	{
-		for (count = 0; count <= 14; ++count)
+		for (j = 0; j <= 14; j++)
 		{
-			num = count;
-			if (count > 9)
-			{
-				putchar(1 + 48);
-				num = count % 10;
-			}
-			putchar(num + 48);
+			if (j >= 10)
+			_putchar('1');
+			_putchar(j % 10 + '0');
 		}
-		putchar('\n');
-	}
+			_putchar('\n');
+		}
 }
