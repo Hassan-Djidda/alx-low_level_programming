@@ -18,7 +18,7 @@ int _pow_recursion(int x, int y)
 		result = 1;
 	else
 	{
-		result =  _pow_recursion(x, y // 2);
+		result =  _pow_recursion(x, y / 2);
 		if (y % 2 == 0)
 			result *= result;
 		else
