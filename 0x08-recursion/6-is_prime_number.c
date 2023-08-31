@@ -1,10 +1,14 @@
 #include "main.h"
 
-/** check_prime - check the prime number
+/**
+ * check_prime - check the prime number
+ * 
  * @div: is the divisor
+ * 
  * @num: number to check
+ * 
  * Return: 1 or 0
- */
+*/
 
 int prime_check(int div, int num)
 {
@@ -21,8 +25,8 @@ int prime_check(int div, int num)
  *
  * @n: input integer number
  *
- * Return: 1 or 0
- */
+ * Return: 1 or 0 
+*/
 
 int is_prime_number(int n)
 {
