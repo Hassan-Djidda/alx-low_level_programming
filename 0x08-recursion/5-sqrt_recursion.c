@@ -8,17 +8,6 @@
  * Return: sqrt if exit else -1
  */
 
-int sqrt_check(int root, int number);
-
-int _sqrt_recursion(int n)
-{
-
-	if (n < 0)
-		return (-1);
-	else
-		return (sqrt_check(0, n)); 
-}
-
 /**
  * sqrt_check - to check the square root
  * @root: the begining integer
@@ -26,6 +15,15 @@ int _sqrt_recursion(int n)
  * Return: sqrt or -1 
  */
 
+int sqrt_check(int root, int number);
+
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+		return (-1);
+	else
+		return (sqrt_check(0, n));
+}
 int sqrt_check(int root, int number)
 {
 	if ((root * root) > number)
