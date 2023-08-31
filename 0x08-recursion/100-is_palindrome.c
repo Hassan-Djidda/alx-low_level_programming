@@ -27,14 +27,14 @@ int _strlen_recursion(char *s)
  * Return: 1 if palindrome 0 otherwise
  */
 
-int check_palin(char *s, int first_index, int last_inde)
+int check_palin(char *s, int first_index, int last_index)
 {
 	if (s[first_index] == s[last_index])
 	{
 		if (first_index > last_index / 2)
 			return (1);
 		else
-			return (check_palin(s, first_index + i, last_index -1));
+			return (check_palin(s, first_index + 1, last_index -1));
 	}
 	else
 		return (0);
