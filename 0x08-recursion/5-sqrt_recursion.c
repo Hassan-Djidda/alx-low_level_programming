@@ -6,12 +6,13 @@
  * @n: to find its square root
  *
  * Return: sqrt if exit else -1
- */
-
-/**
+ *
  * sqrt_check - to check the square root
+ * 
  * @root: the begining integer
+ * 
  * @number: number to check its square root
+ * 
  * Return: sqrt or -1 
  */
 
