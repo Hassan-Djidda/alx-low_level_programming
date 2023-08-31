@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen_recursion: to check length
+ * _strlen_recursion - to check length
  * @s: string to check
  *
  * Return:length
@@ -10,6 +10,7 @@
 int _strlen_recursion(char *s)
 {
 	int length = 0;
+	
 	if (*s != '\0')
 	{
 		length++;
@@ -34,7 +35,7 @@ int check_palin(char *s, int first_index, int last_index)
 		if (first_index > last_index / 2)
 			return (1);
 		else
-			return (check_palin(s, first_index + 1, last_index -1));
+			return (check_palin(s, first_index + 1, last_index - 1));
 	}
 	else
 		return (0);
