@@ -16,14 +16,21 @@ int _sqrt_recursion(int n)
 	if (n < 0)
 		return (-1);
 	else
-		return(sqrt_check(0, n)); 
+		return (sqrt_check(0, n)); 
 }
 
+/**
+ * sqrt_check - to check the square root
+ * @root: the begining integer
+ * @number: number to check its square root
+ * Return: sqrt or -1 
+ */
+
 int sqrt_check(int root, int number)
-{	
+{
 	if ((root * root) > number)
 		return (-1);
 	if ((root * root) == number)
-		return root;
-	return sqrt_check(root + 1, number);
+		return (root);
+	return (sqrt_check(root + 1, number));
 }
