@@ -31,7 +31,7 @@ int check_digit(char num_array[])
  */
 int main(int argc, char *argv[])
 {
-	(void)argc;
+	(void)argv;
 	int sum, i;
 
 	if (argc == 1)
