@@ -18,7 +18,7 @@ int check_digit(char num_array[])
 	for (i = 0; i < len; i++)
 	{
 		if (!isdigit(num_array[i]))
-			return (1);
+			return (0);
 	}
 	return (0);
 }
