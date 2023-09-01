@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 #include <stdio.h>
 /**
  * main - prints multiplication of all argument followed by new linw
@@ -9,17 +10,16 @@
  */
 int main(int argc, char *argv[])
 {
-	int i = 0;
-	int sum;
-	if (argc < 2)
+	int mul;
+	
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	else
 	{
-		for (i = 0; i < argc; i++)
-			mul *= atoi(argv[i]);
+		mul = atoi(argv[1]) * atoi(argv[2]);
 	}
 	printf("%d", mul);
 		
