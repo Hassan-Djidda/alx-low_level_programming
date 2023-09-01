@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - prints all arguments followed by new linw
  * @argc: number of arguments
