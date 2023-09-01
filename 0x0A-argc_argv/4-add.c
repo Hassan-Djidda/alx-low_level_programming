@@ -31,19 +31,21 @@ int check_digit(char num_array[])
  */
 int main(int argc, char *argv[])
 {
-	(void)argv;
-	int sum, i;
+	int sum = 0;
+	int i = 0;
 
 	if (argc == 1)
 		printf("0\n");
 	for (i = 0; i < argc; i++)
 	{
-		if (check_digit(argv[i]) == 0)
-			sum += atoi(argv[i]);
-		else
+		if (check_digit(argv[i]) == 1)
 		{
 			printf("Error\n");
-			return (1);
+			return (0);
+		}
+		else
+		{
+			sum += atoi(argv[i]);
 		}
 	}
 	printf("%d\n", sum);
