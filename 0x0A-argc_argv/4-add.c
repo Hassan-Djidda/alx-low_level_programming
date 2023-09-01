@@ -35,7 +35,7 @@ int main(int argc, char *argv[])
 	int sum, i;
 
 	if (argc == 1)
-		print("0\n");
+		printf("0\n");
 	for (i = 0; i < argc; i++)
 	{
 		if (check_digit(argv[i]) == 0)
