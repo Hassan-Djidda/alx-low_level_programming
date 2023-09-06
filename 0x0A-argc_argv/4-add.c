@@ -15,12 +15,12 @@ int check_digit(char num_array[])
 {
 	int i, len = strlen(num_array);
 
-	for (i = 0; i < len; i++)
+	for (i = 0; i < len - 1; i++)
 	{
-		if (!isdigit(num_array[i]))
+		if (isdigit(num_array[i]) != 1)
 			return (0);
 	}
-	return (0);
+	return (1);
 }
 /**
  * main - prints the sum of arguments followed by new linw
@@ -36,19 +36,22 @@ int main(int argc, char *argv[])
 
 	if (argc == 1)
 		printf("0\n");
-	for (i = 0; i < argc; i++)
+	else
 	{
-		if (check_digit(argv[i]) == 1)
+		for (i = 0; i < argc; i++)
 		{
-			printf("Error\n");
-			return (0);
+			if (check_digit(argv[i]) == 1)
+			{
+				sum += atoi(argv[i]);
+			}
+			else
+			{
+				printf("Error\n");
+				return (1);
+			}
 		}
-		else
-		{
-			sum += atoi(argv[i]);
-		}
-	}
 	printf("%d\n", sum);
+	}
 
 	return (0);
 }
