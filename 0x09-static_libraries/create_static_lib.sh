@@ -4,5 +4,7 @@
 # called liball.a from all .c files
 # that in current directory
 
-gcc -c *c
+gcc -c *.c
 ar rc liball.a *o
+ranlib liball.a
+
