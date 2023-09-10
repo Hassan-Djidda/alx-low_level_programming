@@ -5,4 +5,5 @@
 # that in current directory
 
 gcc -c *.c
-ar rc liball.a *.o
+ar rc libmy.a *.o
+ranlib libmy.a
