@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 
 	if (str_con == NULL)
 		return (NULL);
-	for (i = 0, j= 0; i < ac && j < len; i++)
+	for (i = 0, j = 0; i < ac && j < len; i++)
 	{
 		str = av[i];
 		k = 0;
