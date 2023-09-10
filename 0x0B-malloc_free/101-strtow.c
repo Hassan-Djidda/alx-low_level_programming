@@ -1,4 +1,5 @@
-#include <stdlib.h>
+#include <stdlib.h>                for (j = 0; space <= word; space++, j++)
+
 
 /**
  * count_word - count word form string
@@ -71,7 +72,7 @@ char **strtow(char *str)
 	if (str_word == NULL || str_len == 0)
 		return (NULL);
 
-	for (i = space = 0;  < str_len; i++)
+	for (i = space = 0; i < str_len; i++)
 	{
 		for (word = space; str[word] != '\0'; word++)
 		{
@@ -88,7 +89,7 @@ char **strtow(char *str)
 			}
 		}
 		for (j = 0; space <= word; space++, j++)
-			str_word[i][j] = str[s];
+			str_word[i][j] = str[space];
 		str_word[i][j] = '\0';
 	}
 	str_word[i] = NULL;
