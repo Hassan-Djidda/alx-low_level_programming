@@ -1,5 +1,4 @@
-#include <stdlib.h>                for (j = 0; space <= word; space++, j++)
-
+#include <stdlib.h>
 
 /**
  * count_word - count word form string
