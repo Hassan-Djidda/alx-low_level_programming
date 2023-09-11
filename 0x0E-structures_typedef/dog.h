@@ -5,6 +5,7 @@
  * struct dog - define a dog structure
  * @name: name of the  * @age: age of the dog
  * @owner: the owner of the dog
+ * @age: the age of the dog
  */
 
 struct dog 
@@ -15,7 +16,7 @@ struct dog
 };
 
 /**
- * dog_type - type definition for struct dog
+ * dog_t - type definition for struct dog
  */
 typedef struct dog dog_t;
 
