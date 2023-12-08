@@ -4,13 +4,13 @@
 /**
  * print_numbers - a function that print numbers, follewed by a new line
  *
- * @seperator: pointer to a constant seperator
+ * @separator: pointer to a constant seperator
  * @n: start of the argument
  *
  * Return: Void
  */
 
-void print_numbers(const char *seperator, const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
 	unsigned int idx;
@@ -21,7 +21,7 @@ void print_numbers(const char *seperator, const unsigned int n, ...)
 	{
 		printf("%d", va_arg(ap, int));
 		if (seperator && index != n-1)
-			printf("%s", seperator);
+			printf("%s", separator);
 	}
 	va_end(ap);
 	printf("\n");
